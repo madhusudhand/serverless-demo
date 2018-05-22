@@ -1,0 +1,14 @@
+{
+  "name": "demo-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sls deploy --stage development --region ap-south-1"
+  },
+  "dependencies": {
+    "@angular/cli": "^6.0.3",
+    "loadtest": "^3.0.3",
+    "mysql": "^2.15.0"
+  }
+}

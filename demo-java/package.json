@@ -1,0 +1,9 @@
+{
+  "name": "demo-java",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "sls deploy --stage development --region ap-south-1"
+  }
+}
